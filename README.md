@@ -45,7 +45,7 @@ So for a car company it's really a challenge to identify its strategic group as 
 
 ### Libraries used in web-app
   ```
-  matplotlib==3.5.2
+- matplotlib==3.5.2
 - numpy==1.22.3
 - pandas==1.4.2
 - Pillow==9.1.1
