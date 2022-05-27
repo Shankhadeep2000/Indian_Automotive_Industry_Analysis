@@ -1,12 +1,5 @@
 # Indian_Automotive_Industry_Analysis
-# Index:
-  - [Objective](##Objective)
-  - [Approach](##Approach)
-  - [Challenge](##Challenge)
-  - [Data](##Data)
-  - [About web app](##About-web-app)
 ## Objective
-
 The **Automotive Industry** continues to face a dynamic set of challenges. For those with right ambition it represents an exiting time with opportunities to differentiate and stand out from the crowd. One area that has the opportunity to deliver significant competitive advantage is analytics. 
 
 The main objective of this report is to analyze the data of **Automotive Industry** and gather all the insights from it to understand the Indian market of cars from the given set of features. The topics of the analysis i.e. questions to answer from the analysis will be:-
@@ -46,11 +39,25 @@ And all of the variety above is only regarding the car body type which is only o
 So for a car company it's really a challenge to identify its strategic group as it really takes a lot of effort to put all variable in consideration.
 
 ## Data
+  The **[Dataset](https://acehacker.com/microsoft/engage2022/cars_engage_2022.csv)** used in this project is provided by Microsoft Engage Program.The dataset used in this report is having the latest information about cars in the Indian market. The dataset contains cars with their variants, In dataset there are 1200+ model/variants to study. There is a variety of Makes/Models which can be studied, All prices has been converted from indian rupee to USD.
 
-The **[Dataset](https://acehacker.com/microsoft/engage2022/cars_engage_2022.csv)** used in this project is provided by Microsoft Engage Program.The dataset used in this report is having the latest information about cars in the Indian market. The dataset contains cars with their variants, In dataset there are 1200+ model/variants to study. There is a variety of Makes/Models which can be studied, All prices has been converted from indian rupee to USD.
+## Web-app
 
-## About web app
-The web app is built with the help of **Streamlit library** is  a Python Library and use to create data web apps.It is deployed in **HEROKU** with the domain name of [Indian automotive analysis](https://indianautomotiveanalysis.herokuapp.com/). It can also run on the local server just by folowing stepes below:
+### Libraries used in web-app
+  ```
+  matplotlib==3.5.2
+- numpy==1.22.3
+- pandas==1.4.2
+- Pillow==9.1.1
+- plotly==5.8.0
+- seaborn==0.11.2
+- streamlit==1.9.0
+- streamlit_option_menu==0.3.2
+- pickle-mixin==1.0.2
+- sklearn<0.24.2
+```
+### About web app
+  The web app is built with the help of **Streamlit library** is  a Python Library and use to create data web apps.It is deployed in **HEROKU** with the domain name of [Indian automotive analysis](https://indianautomotiveanalysis.herokuapp.com/). It can also run on the local server just by folowing stepes below:
 - Open Command prompt in windows
 - To create a virtual environment install virtualenv with pip ```pip install virtualenv```
 - Create a folder Desktop and copy its path and go to the folder directory from command prompt by using ```cd <directory address>```
@@ -60,3 +67,4 @@ The web app is built with the help of **Streamlit library** is  a Python Library
 - download the zip file from github and paste the app.py , helper.py , preproceser.py , model.pkl , and all the images in the folder which you created earliear for creating the virtual environment.
 - now open your command prompt where you have activated the virtual environment and run ```streamlit run app.py```
 - It will create a local server and it will display the web application.
+
