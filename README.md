@@ -73,7 +73,7 @@ So for a car company it's really a challenge to identify its strategic group as 
 - It shows the analysis based on fuel hence a person can get insights on **co2 emission**.
 - It provides dynamic features selections based on vehicle make and other preferences to analyze the market trend on folowing feature analysis.
 - It also has the feature of price prediction with manual input system with R-squared value of 94% Random Forest model.
-- 
+
 
 ## Demo
 Microsoft Engage Demo Yotube Video:- https://youtu.be/rMW3nKqQjEg
