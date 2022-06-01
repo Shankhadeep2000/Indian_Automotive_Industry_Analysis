@@ -68,3 +68,36 @@ So for a car company it's really a challenge to identify its strategic group as 
 - now open your command prompt where you have activated the virtual environment and run ```streamlit run app.py```
 - It will create a local server and it will display the web application.
 
+## Features
+- It provides a dashboard based on engine performance, safety performance, and latest features of variants of various models of Automobile Manufacturers are provided. Along with this visualization, plots have been shown for __ understanding the market trends.
+- It shows the analysis based on fuel hence a person can get insights on **co2 emission**.
+- It provides dynamic features selections based on vehicle make and other preferences to analyze the market trend on folowing feature analysis.
+- It also has the feature of price prediction with manual input system with R-squared value of 94% Random Forest model.
+- 
+
+## Demo
+Microsoft Engage Demo Yotube Video:- https://youtu.be/rMW3nKqQjEg
+
+## ScreenShots
+
+<img width="958" alt="me1" src="https://user-images.githubusercontent.com/75299574/171378022-d97fd768-7001-407e-9b5f-bb4418ade254.png">
+
+<img width="959" alt="me2" src="https://user-images.githubusercontent.com/75299574/171378062-cb6481bc-5956-4f37-b8a3-2571520090d2.png">
+
+<img width="959" alt="me3" src="https://user-images.githubusercontent.com/75299574/171378081-1053031e-4f15-48ab-b8bc-cb0f3ff2f102.png">
+
+
+<img width="957" alt="me4" src="https://user-images.githubusercontent.com/75299574/171378221-6f3ef2c0-ae90-4b63-92bf-7563fb39a5c2.png">
+
+<img width="958" alt="me5" src="https://user-images.githubusercontent.com/75299574/171378248-0f4798a1-2f77-427b-8e2b-7753a59ede0b.png">
+
+
+<img width="955" alt="me6" src="https://user-images.githubusercontent.com/75299574/171378297-b8e4e47f-abe0-4e1c-8d3b-8602b91b3894.png">
+
+
+## Future Scope
+
+- Using Deep Neural Networks to make the price prediction to be more precise.
+- Adding A feature of drag and drop other csv and get the analysis report with different graphs.
+- Adding a feature of good Strategic Group feature which will help to create a good strategy absed on cluster analysis.
+
